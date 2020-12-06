@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+<!--	<div id="head">-->
+  <header>
+    <div class="container">
+      <div class="header-main">
+		  <div class="logo"><a href="index.html"></a><img src="img/129158063_149352793187653_6566838290441726509_n.png" alt="logo"></div>
+        <nav class="menu">
+          <ul id="navbar">
+            <li><a href="#"><strong>Home</strong></a></li>
+            <li><a href="#about"><strong>About Me</strong></a></li>
+            <li><a href="#skillbar"><strong>My Skills</strong></a></li>
+            <li><a href="#box1"><strong>Artwork</strong></a></li>
+            <li><a href="#footer"><strong>Contact</strong></a></li>
+          </ul>
+		  </nav>
+		</div>
+    </div>
+  </header>
+<!--</div>-->
+	<div data-aos="zoom-out-up" class="avt">
+	  <img src="img/128672237_722766231987306_8191603066684429119_n.png">
+		<h1>I'M LIGHT YAGAMI</h1>
+	</div>
+	<div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" id="about">
+		<h1>Hi! I am an artist and illustrator based in HCMC Viet Nam. Here you can see some of my latest <a href="">WORK</a>(which is mostly extremely colourful stuff). Feel free to snoop around on my <a href="">SOCIAL MEDIA.</a> For inquiries or a how you doing <a href="">CONTACT ME,</a> I will be happy to hear from you. And for you dear big spender, check out my online <a href="">SHOP</a> I have cool things you might like.<br>
+			P.S.  If this wasn´t enough for you no worries! You can also find out more <a href="">ABOUT ME</a> here ;)
+		</h1>
+	</div>
+	
+	
+<!--	skill bar-->
+	<div id="skillbar">
+			<div data-aos="fade-up"
+     			 data-aos-anchor-placement="top-center" 
+				 class="bar">
+				<h1>MY SKILLS</h1>
+				
+				<div class="skill-text">
+					
+					<p class="skill-name">HTML/CSS</p>
+					<p class="percent">70%</p>
+				</div>
+  				<div class="progress">
+  					<div class="progress-valueHTML"></div>
+				</div>
+				
+				<div class="skill-text">
+					<p class="skill-name">Adobe Illustration</p>
+					<p class="percent">85%</p>
+				</div>
+  				<div class="progress">
+  					<div class="progress-valueAi"></div>
+				</div>
+				
+				<div class="skill-text">
+					<p class="skill-name">Photoshop</p>
+					<p class="percent">87%</p>
+				</div>
+  				<div class="progress">
+  					<div class="progress-valuePTS"></div>
+				</div>
+				
+				<div class="skill-text">
+					<p class="skill-name">Indesign</p>
+					<p class="percent">80%</p>
+				</div>
+  				<div class="progress">
+  					<div class="progress-valueInD"></div>
+				</div>
+			</div>
+		</div>
+	
+<!--	artwork-->
+<section data-aos="fade-up-left" id="box1">
+		<div class="hinh2 hinhabc">
+			<img src="img/102288789_560498261560913_975178874381926400_n.jpg">
+	  	</div>
+		<div class="hinh2 hinhabc">
+			<img src="img/128729206_391908868791460_1935136778953871001_n.jpg">
+	  	</div>
+		<div class="hinh2 hinhabc">
+			<img src="img/128255896_684067868918970_6301972554684722348_n.jpg">
+		</div>
+		<div class="hinh2 hinhabc">
+			<img src="img/128272716_723282348565592_8406822348876723571_n.jpg">
+		</div>
+		<div class="hinh2 hinhabc">
+			<img src="img/128602825_290999792335369_7800357109068651573_n.jpg">
+		</div>
+		<div class="hinh2 hinhabc">
+			<img src="img/128627666_992394287954271_4785131931363138595_n.jpg">
+		</div>
+	</section>
+<div id="footer">
+ 	<div data-aos="flip-left" class="contact">
+	 	<h1>Contact Me Now</h1>
+    	<div class="form-register">
+			<form>
+		        <input type="email" placeholder="Email..." name="mail"><br>
+        		<input type="tel" placeholder="Phone..." name="dt"><br>
+			</form>   
+			<a href="#footer" class="rainbow-button" alt="Send"></a>
+
+		</div>
+	</div>
+	<div class="hinhcontact">
+		<img src="img/129484932_397558914992837_4850604202632579357_n.jpg" alt="hinhcontact">
+		<div class="social-icon">
+		<i class="fab fa-facebook-f"></i>
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-twitter"></i>
+		<i class="fab fa-pinterest-p"></i>
+		</div>
+	</div> 
+  </div>
+<div class="logo-cuoi">
+  <div class="logofooter"><img src="img/129158063_149352793187653_6566838290441726509_n.png" alt="logo"></div>
+  <p>	&copy; 2020. LS. All rights reserved</p>
+</div>
+
+	
+<!--back to top button-->
+	<div onclick="topFunction()" id="backtotop">
+	<i class="fas fa-angle-double-up"></i>
+		</div>
+	<script>
+	//Get the button:
+mybutton = document.getElementById("backtotop");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+		</script>
+	
+	
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+	
+	
+	
+</body>
+</html>
